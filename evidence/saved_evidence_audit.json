@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "29e2314f08d3de562e3064c3350c91d65df53fc1261d952a41969d2535bf39a9",
+  "files_checked": 1553,
+  "binary_files_checked": 63,
+  "hash_errors": [],
+  "guard128_complete_pairs": 2,
+  "order": [
+    "T00",
+    "T01",
+    "T01",
+    "T00"
+  ],
+  "medians_clock_seconds": {
+    "T00": 460.227036228,
+    "T01": 322.47537184299995
+  },
+  "ratio_of_medians": 1.4271695652220713,
+  "rows": [
+    {
+      "pair": 0,
+      "variant": "T00",
+      "request_clock_seconds": 463.64669548,
+      "compute_clock_seconds": 463.600909169,
+      "output_sha256": "5445fb18ae145cd18cc9e195bed177aed25760beaf75813283c1d9dcf5e2efe0",
+      "model_sha256": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "pins": {
+        "driver_sha256": {
+          "sha256": "2a4ac83ebf7770d01ecdb277eaaec214f0ef49789dff0247a792da09f69e68ed",
+          "files": [
+            "guard64/ssm/native-P00/ssm-full-model",
+            "guard64/ssm/native-P01/ssm-full-model",
+            "guard64/ssm/native-T00/ssm-full-model",
+            "guard64/ssm/native-T01/ssm-full-model",
+            "ssm/full-build/ssm-full-model",
+            "ssm/native-T00/ssm-full-model",
+            "ssm/native-T01/ssm-full-model",
+            "ssm/native-direct/ssm-full-model",
+            "strict/ssm/native-T00/ssm-full-model",
+            "strict/ssm/native-T01/ssm-full-model"
+          ]
+        },
+        "library_sha256": {
+          "sha256": "54e5b0df2a89cf52baf7e6176b26328768320a50b8fb26fa0c6665c146373738",
+          "files": [
+            "guard64/ssm/arm-build/ssm-T00.so",
+            "guard64/ssm/native-T00/provider-native.so"
+          ]
+        },
+        "build_manifest_sha256": {
+          "sha256": "0ee3ffb55ac46321f397c8de0acd88c0aee22c22f00975cd88746af54297d90b",
+          "files": [
+            "guard64/ssm/native-T00/build_manifest.json"
+          ]
+        }
+      },
+      "process_path": "~/work_space/agent-worktrees/opus55-host-cgla-software-independent/OPUS55_CONTINUATION_20261117/runtime20261114/guard64/ssm/runs/opus55-guard64-n128-p0-T00",
+      "request_boundary": "Instrumented admitted request: before Host reset/begin through last feedback forward, token selection, interleaved binary raw capture and fflush, state snapshot, provider snapshot/metrics and request end. Excludes model/library/plan setup, global file header, JSON reporting, file close, post-run oracle and process cleanup; no fsync durability claim.",
+      "host_clock": "CLOCK_MONOTONIC",
+      "native_phase_clock": "CLOCK_REALTIME"
+    },
+    {
+      "pair": 0,
+      "variant": "T01",
+      "request_clock_seconds": 325.464259601,
+      "compute_clock_seconds": 325.414511671,
+      "output_sha256": "5445fb18ae145cd18cc9e195bed177aed25760beaf75813283c1d9dcf5e2efe0",
+      "model_sha256": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "pins": {
+        "driver_sha256": {
+          "sha256": "2a4ac83ebf7770d01ecdb277eaaec214f0ef49789dff0247a792da09f69e68ed",
+          "files": [
+            "guard64/ssm/native-P00/ssm-full-model",
+            "guard64/ssm/native-P01/ssm-full-model",
+            "guard64/ssm/native-T00/ssm-full-model",
+            "guard64/ssm/native-T01/ssm-full-model",
+            "ssm/full-build/ssm-full-model",
+            "ssm/native-T00/ssm-full-model",
+            "ssm/native-T01/ssm-full-model",
+            "ssm/native-direct/ssm-full-model",
+            "strict/ssm/native-T00/ssm-full-model",
+            "strict/ssm/native-T01/ssm-full-model"
+          ]
+        },
+        "library_sha256": {
+          "sha256": "640b1dc782626ba6ea63670f1a4c0d689fa417e7deed3bff1a82736bf174c8dd",
+          "files": [
+            "guard64/ssm/arm-build/ssm-T01.so",
+            "guard64/ssm/native-T01/provider-native.so"
+          ]
+        },
+        "build_manifest_sha256": {
+          "sha256": "b12ce40c51c3732a75b13e56cb5b00277d18f12071487bf757f6b2588b8692f9",
+          "files": [
+            "guard64/ssm/native-T01/build_manifest.json"
+          ]
+        }
+      },
+      "process_path": "~/work_space/agent-worktrees/opus55-host-cgla-software-independent/OPUS55_CONTINUATION_20261117/runtime20261114/guard64/ssm/runs/opus55-guard64-n128-p0-T01",
+      "request_boundary": "Instrumented admitted request: before Host reset/begin through last feedback forward, token selection, interleaved binary raw capture and fflush, state snapshot, provider snapshot/metrics and request end. Excludes model/library/plan setup, global file header, JSON reporting, file close, post-run oracle and process cleanup; no fsync durability claim.",
+      "host_clock": "CLOCK_MONOTONIC",
+      "native_phase_clock": "CLOCK_REALTIME"
+    },
+    {
+      "pair": 1,
+      "variant": "T00",
+      "request_clock_seconds": 456.807376976,
+      "compute_clock_seconds": 456.716701487,
+      "output_sha256": "5445fb18ae145cd18cc9e195bed177aed25760beaf75813283c1d9dcf5e2efe0",
+      "model_sha256": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "pins": {
+        "driver_sha256": {
+          "sha256": "2a4ac83ebf7770d01ecdb277eaaec214f0ef49789dff0247a792da09f69e68ed",
+          "files": [
+            "guard64/ssm/native-P00/ssm-full-model",
+            "guard64/ssm/native-P01/ssm-full-model",
+            "guard64/ssm/native-T00/ssm-full-model",
+            "guard64/ssm/native-T01/ssm-full-model",
+            "ssm/full-build/ssm-full-model",
+            "ssm/native-T00/ssm-full-model",
+            "ssm/native-T01/ssm-full-model",
+            "ssm/native-direct/ssm-full-model",
+            "strict/ssm/native-T00/ssm-full-model",
+            "strict/ssm/native-T01/ssm-full-model"
+          ]
+        },
+        "library_sha256": {
+          "sha256": "54e5b0df2a89cf52baf7e6176b26328768320a50b8fb26fa0c6665c146373738",
+          "files": [
+            "guard64/ssm/arm-build/ssm-T00.so",
+            "guard64/ssm/native-T00/provider-native.so"
+          ]
+        },
+        "build_manifest_sha256": {
+          "sha256": "0ee3ffb55ac46321f397c8de0acd88c0aee22c22f00975cd88746af54297d90b",
+          "files": [
+            "guard64/ssm/native-T00/build_manifest.json"
+          ]
+        }
+      },
+      "process_path": "~/work_space/agent-worktrees/opus55-host-cgla-software-independent/OPUS55_CONTINUATION_20261117/runtime20261114/guard64/ssm/runs/opus55-guard64-n128-p1-T00",
+      "request_boundary": "Instrumented admitted request: before Host reset/begin through last feedback forward, token selection, interleaved binary raw capture and fflush, state snapshot, provider snapshot/metrics and request end. Excludes model/library/plan setup, global file header, JSON reporting, file close, post-run oracle and process cleanup; no fsync durability claim.",
+      "host_clock": "CLOCK_MONOTONIC",
+      "native_phase_clock": "CLOCK_REALTIME"
+    },
+    {
+      "pair": 1,
+      "variant": "T01",
+      "request_clock_seconds": 319.486484085,
+      "compute_clock_seconds": 319.437837679,
+      "output_sha256": "5445fb18ae145cd18cc9e195bed177aed25760beaf75813283c1d9dcf5e2efe0",
+      "model_sha256": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "pins": {
+        "driver_sha256": {
+          "sha256": "2a4ac83ebf7770d01ecdb277eaaec214f0ef49789dff0247a792da09f69e68ed",
+          "files": [
+            "guard64/ssm/native-P00/ssm-full-model",
+            "guard64/ssm/native-P01/ssm-full-model",
+            "guard64/ssm/native-T00/ssm-full-model",
+            "guard64/ssm/native-T01/ssm-full-model",
+            "ssm/full-build/ssm-full-model",
+            "ssm/native-T00/ssm-full-model",
+            "ssm/native-T01/ssm-full-model",
+            "ssm/native-direct/ssm-full-model",
+            "strict/ssm/native-T00/ssm-full-model",
+            "strict/ssm/native-T01/ssm-full-model"
+          ]
+        },
+        "library_sha256": {
+          "sha256": "640b1dc782626ba6ea63670f1a4c0d689fa417e7deed3bff1a82736bf174c8dd",
+          "files": [
+            "guard64/ssm/arm-build/ssm-T01.so",
+            "guard64/ssm/native-T01/provider-native.so"
+          ]
+        },
+        "build_manifest_sha256": {
+          "sha256": "b12ce40c51c3732a75b13e56cb5b00277d18f12071487bf757f6b2588b8692f9",
+          "files": [
+            "guard64/ssm/native-T01/build_manifest.json"
+          ]
+        }
+      },
+      "process_path": "~/work_space/agent-worktrees/opus55-host-cgla-software-independent/OPUS55_CONTINUATION_20261117/runtime20261114/guard64/ssm/runs/opus55-guard64-n128-p1-T01",
+      "request_boundary": "Instrumented admitted request: before Host reset/begin through last feedback forward, token selection, interleaved binary raw capture and fflush, state snapshot, provider snapshot/metrics and request end. Excludes model/library/plan setup, global file header, JSON reporting, file close, post-run oracle and process cleanup; no fsync durability claim.",
+      "host_clock": "CLOCK_MONOTONIC",
+      "native_phase_clock": "CLOCK_REALTIME"
+    }
+  ],
+  "scope": "Same-ARM-clock observations; external clock-scale calibration not established for historical runs. No conversion to physical seconds or cross-clock arithmetic. Third unpaired baseline excluded."
+}

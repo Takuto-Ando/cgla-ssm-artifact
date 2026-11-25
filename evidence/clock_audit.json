@@ -1,0 +1,114 @@
+{
+  "status": "OBSERVED_ARM_QPC_AGREEMENT_WSL_MONOTONIC_MISMATCH",
+  "records": [
+    {
+      "phase": "before",
+      "arm_s": 2.000113727,
+      "windows_qpc_s": 2.0036988,
+      "wsl_monotonic_s": 1.801055767,
+      "wsl_raw_s": 2.001173387,
+      "wsl_monotonic_over_arm": 0.9004766792443498,
+      "arm_over_windows_qpc": 0.9982107724973435
+    },
+    {
+      "phase": "before",
+      "arm_s": 5.000113875,
+      "windows_qpc_s": 5.0013807,
+      "wsl_monotonic_s": 4.500944071,
+      "wsl_raw_s": 5.00104851,
+      "wsl_monotonic_over_arm": 0.9001683128666744,
+      "arm_over_windows_qpc": 0.9997467049448965
+    },
+    {
+      "phase": "before",
+      "arm_s": 10.000112666,
+      "windows_qpc_s": 10.0012787,
+      "wsl_monotonic_s": 9.000829938,
+      "wsl_raw_s": 10.000922223,
+      "wsl_monotonic_over_arm": 0.900072853039194,
+      "arm_over_windows_qpc": 0.9998834115081704
+    },
+    {
+      "phase": "before",
+      "arm_s": 2.000097586,
+      "windows_qpc_s": 2.0014316,
+      "wsl_monotonic_s": 1.800905675,
+      "wsl_raw_s": 2.001008258,
+      "wsl_monotonic_over_arm": 0.9004089038483546,
+      "arm_over_windows_qpc": 0.9993334701021008
+    },
+    {
+      "phase": "before",
+      "arm_s": 5.000106923,
+      "windows_qpc_s": 5.0015112,
+      "wsl_monotonic_s": 4.501053234,
+      "wsl_raw_s": 5.001170735,
+      "wsl_monotonic_over_arm": 0.9001913965670609,
+      "arm_over_windows_qpc": 0.9997192294600878
+    },
+    {
+      "phase": "before",
+      "arm_s": 10.000110022,
+      "windows_qpc_s": 10.0012636,
+      "wsl_monotonic_s": 9.000851067,
+      "wsl_raw_s": 10.000946103,
+      "wsl_monotonic_over_arm": 0.9000752038925917,
+      "arm_over_windows_qpc": 0.9998846567747699
+    },
+    {
+      "phase": "after",
+      "arm_s": 2.000113442,
+      "windows_qpc_s": 2.0040557,
+      "wsl_monotonic_s": 1.834507175,
+      "wsl_raw_s": 2.001279841,
+      "wsl_monotonic_over_arm": 0.9172015629101502,
+      "arm_over_windows_qpc": 0.9980328600647178
+    },
+    {
+      "phase": "after",
+      "arm_s": 5.000113975,
+      "windows_qpc_s": 5.0014498,
+      "wsl_monotonic_s": 4.584346556,
+      "wsl_raw_s": 5.001105412,
+      "wsl_monotonic_over_arm": 0.9168484116404567,
+      "arm_over_windows_qpc": 0.9997329124447075
+    },
+    {
+      "phase": "after",
+      "arm_s": 10.00011087,
+      "windows_qpc_s": 10.0011333,
+      "wsl_monotonic_s": 9.167388687,
+      "wsl_raw_s": 10.000788925,
+      "wsl_monotonic_over_arm": 0.9167287049288485,
+      "arm_over_windows_qpc": 0.9998977685858863
+    },
+    {
+      "phase": "after",
+      "arm_s": 2.000105878,
+      "windows_qpc_s": 2.0013186,
+      "wsl_monotonic_s": 1.834289069,
+      "wsl_raw_s": 2.001043159,
+      "wsl_monotonic_over_arm": 0.9170959843556843,
+      "arm_over_windows_qpc": 0.9993940385104101
+    },
+    {
+      "phase": "after",
+      "arm_s": 5.000105381,
+      "windows_qpc_s": 5.0013513,
+      "wsl_monotonic_s": 4.584282587,
+      "wsl_raw_s": 5.001036779,
+      "wsl_monotonic_over_arm": 0.9168371939559327,
+      "arm_over_windows_qpc": 0.9997508835262183
+    },
+    {
+      "phase": "after",
+      "arm_s": 10.000111252,
+      "windows_qpc_s": 10.0011941,
+      "wsl_monotonic_s": 9.167422116,
+      "wsl_raw_s": 10.000825249,
+      "wsl_monotonic_over_arm": 0.9167320127730114,
+      "arm_over_windows_qpc": 0.9998917281287442
+    }
+  ],
+  "interpretation": "Before/after device-free containment observations only; no historical correction or traceable SI calibration. WSL adjusted monotonic scale changes between probes. Native comparisons use one ARM monotonic clock. Machine UTC timestamps are not used to subtract durations across hosts."
+}

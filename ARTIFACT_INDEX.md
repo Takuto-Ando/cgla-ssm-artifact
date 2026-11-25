@@ -1,0 +1,21 @@
+# Artifact Index
+
+SHA-256 of every file in this repository at packaging time (2026-11-25).
+
+```
+6cef7fb9165f3472ca645ba64aa036ce76be9692cb1b39cd299e55b895b741f7  ./.gitignore
+9f1abe28a25b5f6f95c58a81a647de3fa72ff6388d228c59bddd079255709989  ./LICENSE
+e125a3edcfe95114385ee74800641a52400b84298803dd60862cba4db66f61fa  ./README.md
+9c9a7600a3104ff4c107edfaf35dea51ea9782906b30fd015b2ce00c79cf2e2b  ./evidence/clock_audit.json
+229351d1df8e991b92936a8c0b11fb2673f993d42316cdcf9317be36d5143ce6  ./evidence/config-ssm.json
+88b210b570329673b0c88c4f06ca031796d42a08ced216080189760b5f68fcab  ./evidence/factorial_native.json
+b503a6aa3c9e9d9a45da9e154d50201fb2d539dd4280394fd28effe0666be308  ./evidence/saved_evidence_audit.json
+aa3c43be1b83decbb9b8c1f047476245f44777401a9e7c8f99156032242889c1  ./evidence/ssm-derived-counts.json
+34f992a9cb4c2b321c58e2d29851871e27ebc237e4fcc3d645cadbfdc03b6276  ./evidence/ssm-native.json
+84eee9810eb67dc5fde40d018380d90dc1ef749ca325d62aa6ee807a2ae85757  ./src/kernel/projection_emax5a.c
+3f6c7b77db4eb727735679198dc3a682843c9f7049dce3c63cd8bbad1cf9bc4c  ./src/kernel/state_ordered_emax5a.c
+b2016338c12449f6b42cbbb7ad845b2a440320271c6852e1637579e324b96814  ./src/provider/native_provider.c
+af49169b361392b88ecdaa98bd395ecf260d4bf8cb8720ef9a00fa49cb41d5b5  ./src/provider/ssm_config_reuse.h
+449f074162e2d38a421e68ac55c17890993dc87818c3d9077dcb96809f6a9d2f  ./src/provider/ssm_dense_baseline.h
+512bc70dc97517e164991c03b5a8be4a511588d33c259c826124fe9cb404a77a  ./src/runtime/driver.c
+```

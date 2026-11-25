@@ -1,0 +1,86 @@
+[
+  {
+    "label": "ssm-best-n128-p0-m0-20261118",
+    "driver_ns": 184615528332,
+    "decode_ns": 181621379893,
+    "peak_rss_kib": 510084,
+    "state_bytes": 2949120,
+    "reserved_ddr_bytes": 524537856,
+    "placed_payload_bytes": 493682688,
+    "prepare_ns": 1226150540,
+    "hits": 12288,
+    "derived_weight_installs": 96,
+    "phases": [
+      14815056125,
+      72340887991,
+      12270177155,
+      18579979359,
+      1145520
+    ],
+    "pins": {
+      "~/gemini-cgla-pipeline-20261117/ssm_current/build-gemini-arm/ssm-runtime": "6cbbe39c0d7dfaa8a4b3b2262bafe041fd27412d947e2e82ae014bbf3f85ae85",
+      "~/gemini-cgla-pipeline-20261117/ssm_native/reuse-0-perf-test.so": "a0fcb8f2cce6d8646a804185903f231e4178871fb632794c924892ceedbca6ed",
+      "~/gemini-cgla-pipeline-20261117/ssm_current/build-gemini-arm/hard32.so": "e554d5a08f01743624a93f2c2d986190238eb1a62758bda36c3846b99309ae83",
+      "~/mamba-full-model-baseline-20260728/model/mamba-130m.bin": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "~/gemini-cgla-pipeline-20261117/ssm_native/prompt.bin": "613008b575cc2bb7a19767f9bce540b37ec30e6c961e025947a7dbbc06ad9833"
+    },
+    "output": "40a07dcf2f1c6f572beccd89364066eec47176a8572c319d0bef4285c2ba6002",
+    "physical_transfer_bytes": null
+  },
+  {
+    "label": "ssm-best-n128-p0-m1-20261118",
+    "driver_ns": 173488753852,
+    "decode_ns": 170577772449,
+    "peak_rss_kib": 510064,
+    "state_bytes": 2949120,
+    "reserved_ddr_bytes": 524537856,
+    "placed_payload_bytes": 493682688,
+    "prepare_ns": 1256552261,
+    "hits": 12288,
+    "derived_weight_installs": 96,
+    "phases": [
+      1299905101,
+      72575161943,
+      12265402666,
+      20316182198,
+      1145520
+    ],
+    "pins": {
+      "~/gemini-cgla-pipeline-20261117/ssm_current/build-gemini-arm/ssm-runtime": "6cbbe39c0d7dfaa8a4b3b2262bafe041fd27412d947e2e82ae014bbf3f85ae85",
+      "~/gemini-cgla-pipeline-20261117/ssm_native/reuse-1-perf-test.so": "f8bc3ab2c2ff4ffe952bcea7f53fe4231cd405e24b98bbe2b927c2f3d0b168aa",
+      "~/gemini-cgla-pipeline-20261117/ssm_current/build-gemini-arm/hard32.so": "e554d5a08f01743624a93f2c2d986190238eb1a62758bda36c3846b99309ae83",
+      "~/mamba-full-model-baseline-20260728/model/mamba-130m.bin": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "~/gemini-cgla-pipeline-20261117/ssm_native/prompt.bin": "613008b575cc2bb7a19767f9bce540b37ec30e6c961e025947a7dbbc06ad9833"
+    },
+    "output": "40a07dcf2f1c6f572beccd89364066eec47176a8572c319d0bef4285c2ba6002",
+    "physical_transfer_bytes": null
+  },
+  {
+    "label": "ssm-activation-n128-p0-20261118",
+    "driver_ns": 173319141221,
+    "decode_ns": 170375391034,
+    "peak_rss_kib": 510072,
+    "state_bytes": 2949120,
+    "reserved_ddr_bytes": 524537856,
+    "placed_payload_bytes": 493682688,
+    "prepare_ns": 1277889384,
+    "hits": 12288,
+    "derived_weight_installs": 96,
+    "phases": [
+      1304520545,
+      72548408262,
+      12265104785,
+      20306012891,
+      1145520
+    ],
+    "pins": {
+      "~/gemini-cgla-pipeline-20261117/ssm_current/build-gemini-arm/ssm-runtime": "6cbbe39c0d7dfaa8a4b3b2262bafe041fd27412d947e2e82ae014bbf3f85ae85",
+      "~/gemini-cgla-pipeline-20261117/ssm_native/activation-guards0-test.so": "745bdb1dd2ed610775378aa60a5dc8feca092e3a96d08dc661443cee8f949b8c",
+      "~/gemini-cgla-pipeline-20261117/ssm_current/build-gemini-arm/hard32.so": "e554d5a08f01743624a93f2c2d986190238eb1a62758bda36c3846b99309ae83",
+      "~/mamba-full-model-baseline-20260728/model/mamba-130m.bin": "c5b5b7a3f868d294b2fea05e680ed47eebb0b59acc82331e0178f2e9f6829ef3",
+      "~/gemini-cgla-pipeline-20261117/ssm_native/prompt.bin": "613008b575cc2bb7a19767f9bce540b37ec30e6c961e025947a7dbbc06ad9833"
+    },
+    "output": "40a07dcf2f1c6f572beccd89364066eec47176a8572c319d0bef4285c2ba6002",
+    "physical_transfer_bytes": null
+  }
+]

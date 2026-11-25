@@ -1,0 +1,36 @@
+{
+  "basis": "Static counts verified against observed dispatch totals and reserved/stored bytes; no DMA counter",
+  "shape_M_K_R": [
+    [
+      3072,
+      768,
+      60
+    ],
+    [
+      80,
+      1536,
+      28
+    ],
+    [
+      1536,
+      48,
+      60
+    ],
+    [
+      768,
+      1536,
+      60
+    ]
+  ],
+  "projections_per_family": 3096,
+  "host_activation_writes_both": 58824,
+  "mode1_input_metadata_invalidation_events": 1071216,
+  "mode2_input_metadata_invalidation_events": 58824,
+  "entries_per_event": 2,
+  "weight_metadata_group_preparations_each": 1071216,
+  "peak_projection_accumulator_bytes": 12480,
+  "additional_activation_workspace_bytes": 0,
+  "observed_ddr_reservation": 524537856,
+  "observed_padded_weight_bytes": 493682688,
+  "physical_weight_transfers": null
+}
